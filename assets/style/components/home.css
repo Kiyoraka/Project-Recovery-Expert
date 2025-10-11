@@ -104,7 +104,7 @@
 .hero-subtitle-main {
     font-size: 1.8rem;
     font-weight: 600;
-    color: var(--text-secondary);
+    color: var(--color-white);
     line-height: 1.4;
     margin: 0 0 2rem 0;
     animation: slideInFromBottom 0.6s ease forwards;
