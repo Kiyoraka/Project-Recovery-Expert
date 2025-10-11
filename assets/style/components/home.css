@@ -7,6 +7,9 @@
 .section {
     padding: var(--spacing-xl) var(--spacing-md);
     position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .section-title {
