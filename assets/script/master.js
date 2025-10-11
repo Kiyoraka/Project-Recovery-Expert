@@ -17,8 +17,6 @@ const App = {
 
     // Initialize application
     init() {
-        console.log('🚀 Initializing Engineering Company Website...');
-
         // Wait for DOM to be ready
         if (document.readyState === 'loading') {
             document.addEventListener('DOMContentLoaded', () => this.start());
