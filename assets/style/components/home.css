@@ -38,6 +38,11 @@
 /* Section Content Wrapper */
 .section-content {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
 /* Hero Section */
