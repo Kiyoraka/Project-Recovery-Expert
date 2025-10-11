@@ -33,6 +33,11 @@
     align-items: center;
 }
 
+/* Section Content Wrapper */
+.section-content {
+    width: 100%;
+}
+
 /* Hero Section */
 .hero {
     display: flex;
@@ -40,7 +45,6 @@
     align-items: center;
     text-align: center;
     gap: var(--spacing-md);
-    padding-top: 80px;
 }
 
 .hero-badge {
