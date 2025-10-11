@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="UT Generation Sdn Bhd - Professional engineering company delivering innovative solutions and cutting-edge technology">
+    <meta name="keywords" content="UT Generation, engineering, technology, innovation, solutions">
+    <meta name="author" content="UT Generation Sdn Bhd">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="UT Generation Sdn Bhd - Engineering Solutions">
+    <meta property="og:description" content="Professional engineering services and cutting-edge technology solutions">
+    <meta property="og:type" content="website">
+
+    <title>UT Generation Sdn Bhd - Engineering Success Through Innovation</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Stylesheets - Load in order for proper cascading -->
+    <link rel="stylesheet" href="assets/style/theme.css">
+    <link rel="stylesheet" href="assets/style/master.css">
+    <link rel="stylesheet" href="assets/style/components/logo-animation.css">
+    <link rel="stylesheet" href="assets/style/components/navigation.css">
+    <link rel="stylesheet" href="assets/style/components/home.css">
+    <link rel="stylesheet" href="assets/style/components/cards.css">
+    <link rel="stylesheet" href="assets/style/components/animations.css">
+
+    <!-- Preload Critical Assets -->
+    <link rel="preload" href="assets/images/logo.png" as="image">
+</head>
+<body>
+
+    <!-- ===================================
+         LOGO ANIMATION SCREEN
+         Appears on first load, fades after 3 seconds
+         =================================== -->
+    <div class="logo-screen">
+        <div class="logo-container">
+            <div class="logo-content">
+                <!-- Logo Image -->
+                <div class="logo-image">
+                    <img src="assets/images/logo.png" alt="Company Logo" style="width: 100%; height: 100%; object-fit: contain;">
+                </div>
+
+                <!-- Company Name -->
+                <h1 class="logo-text">UT Generation Sdn Bhd</h1>
+
+                <!-- Tagline -->
+                <p class="logo-tagline">ENGINEERING SUCCESS THROUGH INNOVATION</p>
+
+                <!-- Loading Bar -->
+                <div class="logo-loader">
+                    <div class="logo-loader-bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================
+         NAVIGATION BAR
+         Fixed glassmorphism navbar
+         =================================== -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <!-- Logo -->
+            <a href="#home" class="navbar-logo">
+                <img src="assets/images/logo.png" alt="UT Generation Logo" class="navbar-logo-img">
+                <span class="navbar-logo-text">UT Generation Sdn Bhd</span>
+            </a>
+
+            <!-- Navigation Menu -->
+            <ul class="navbar-menu">
+                <li class="navbar-item">
+                    <a href="#home" class="navbar-link active">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#about" class="navbar-link">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#staff" class="navbar-link">Staff</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#project" class="navbar-link">Project</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#contact" class="navbar-link">Contact</a>
+                </li>
+            </ul>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="navbar-toggle" aria-label="Toggle navigation menu">
+                <span class="navbar-toggle-bar"></span>
+                <span class="navbar-toggle-bar"></span>
+                <span class="navbar-toggle-bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===================================
+         MAIN CONTENT
+         =================================== -->
+    <main>
+
+        <!-- HOME SECTION -->
+        <section id="home" class="section active">
+            <div class="section-content">
+                <div class="section-container">
+                    <div class="hero">
+                        <!-- Main Tagline -->
+                        <h1 class="hero-title" style="margin-bottom: 2rem;">
+                            <span class="hero-title-gradient">ENGINEERING SUCCESS</span><br>
+                            <span class="hero-title-gradient">THROUGH INNOVATION</span>
+                        </h1>
+
+                        <!-- Call to Action Buttons -->
+                        <div class="hero-cta">
+                            <button class="btn-primary" data-navigate="about">About Us</button>
+                            <button class="btn-primary" data-navigate="contact">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section">
+            <div class="section-content">
+                <div class="section-container">
+                    <h2 class="section-title">About Us</h2>
+
+                    <div class="card-grid-3" style="margin-top: 3rem;">
+                        <!-- Company Background -->
+                        <div class="glass-card card-with-icon rise-animation">
+                            <div class="card-icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <h3 class="card-title">Company Background</h3>
+                            <p class="card-description">
+                                Established in 2010, UT Generation Sdn Bhd has been at the forefront of engineering innovation, delivering cutting-edge solutions across multiple industries. Our commitment to excellence has made us a trusted partner for businesses seeking transformative engineering services.
+                            </p>
+                        </div>
+
+                        <!-- Vision -->
+                        <div class="glass-card card-with-icon rise-animation">
+                            <div class="card-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <h3 class="card-title">Vision</h3>
+                            <p class="card-description">
+                                To be the leading engineering solutions provider in the region, recognized for innovation, quality, and sustainable practices. We envision a future where engineering excellence drives progress and creates lasting value for communities and industries.
+                            </p>
+                        </div>
+
+                        <!-- Mission -->
+                        <div class="glass-card card-with-icon rise-animation">
+                            <div class="card-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h3 class="card-title">Mission</h3>
+                            <p class="card-description">
+                                Delivering innovative engineering solutions that transform challenges into opportunities. We combine technical expertise with creative problem-solving to provide sustainable, efficient, and reliable services that exceed client expectations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STAFF SECTION -->
+        <section id="staff" class="section">
+            <div class="section-content">
+                <div class="section-container">
+                    <h2 class="section-title">Our Leadership Team</h2>
+
+                    <div class="card-grid-3" style="margin-top: 3rem;">
+                        <!-- Managing Director -->
+                        <div class="staff-card rise-animation">
+                            <div class="staff-avatar">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <h3 class="staff-name">John Doe</h3>
+                            <p class="staff-position">Managing Director</p>
+                        </div>
+
+                        <!-- Operations Director -->
+                        <div class="staff-card rise-animation">
+                            <div class="staff-avatar">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <h3 class="staff-name">Jane Smith</h3>
+                            <p class="staff-position">Operations Director</p>
+                        </div>
+
+                        <!-- Engineering Manager -->
+                        <div class="staff-card rise-animation">
+                            <div class="staff-avatar">
+                                <i class="fas fa-user-cog"></i>
+                            </div>
+                            <h3 class="staff-name">Michael Chen</h3>
+                            <p class="staff-position">Engineering Manager</p>
+                        </div>
+
+                        <!-- Project Manager -->
+                        <div class="staff-card rise-animation">
+                            <div class="staff-avatar">
+                                <i class="fas fa-user-check"></i>
+                            </div>
+                            <h3 class="staff-name">Sarah Johnson</h3>
+                            <p class="staff-position">Project Manager</p>
+                        </div>
+
+                        <!-- Technical Lead -->
+                        <div class="staff-card rise-animation">
+                            <div class="staff-avatar">
+                                <i class="fas fa-user-gear"></i>
+                            </div>
+                            <h3 class="staff-name">David Lee</h3>
+                            <p class="staff-position">Technical Lead</p>
+                        </div>
+
+                        <!-- Business Development Manager -->
+                        <div class="staff-card rise-animation">
+                            <div class="staff-avatar">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                            <h3 class="staff-name">Emily Wong</h3>
+                            <p class="staff-position">Business Development Manager</p>
+                        </div>
+                    </div>
+
+                    <!-- View Full Team Button -->
+                    <div style="text-align: center; margin-top: 3rem;">
+                        <button class="btn-glass">View Full Team</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT SECTION -->
+        <section id="project" class="section">
+            <div class="section-content">
+                <div class="section-container">
+                    <h2 class="section-title">Our Projects</h2>
+
+                    <div class="card-grid-3" style="margin-top: 3rem;">
+                        <!-- Project 1 -->
+                        <div class="project-card rise-animation">
+                            <div class="project-icon">
+                                <i class="fas fa-industry"></i>
+                            </div>
+                            <h3 class="project-name">Industrial Automation Project</h3>
+                            <p class="project-description">
+                                Complete automation solution for manufacturing facility, improving efficiency by 45% and reducing operational costs significantly.
+                            </p>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="project-card rise-animation">
+                            <div class="project-icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <h3 class="project-name">Smart Building Solutions</h3>
+                            <p class="project-description">
+                                Integrated building management system with IoT sensors, optimizing energy consumption and enhancing occupant comfort.
+                            </p>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="project-card rise-animation">
+                            <div class="project-icon">
+                                <i class="fas fa-hard-hat"></i>
+                            </div>
+                            <h3 class="project-name">Infrastructure Development</h3>
+                            <p class="project-description">
+                                Large-scale infrastructure project delivering sustainable solutions for urban development and community growth.
+                            </p>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="project-card rise-animation">
+                            <div class="project-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h3 class="project-name">Energy Management System</h3>
+                            <p class="project-description">
+                                Advanced energy monitoring and management platform reducing energy waste by 30% across multiple facilities.
+                            </p>
+                        </div>
+
+                        <!-- Project 5 -->
+                        <div class="project-card rise-animation">
+                            <div class="project-icon">
+                                <i class="fas fa-gears"></i>
+                            </div>
+                            <h3 class="project-name">Manufacturing Optimization</h3>
+                            <p class="project-description">
+                                Process optimization project improving production line efficiency and quality control systems.
+                            </p>
+                        </div>
+
+                        <!-- Project 6 -->
+                        <div class="project-card rise-animation">
+                            <div class="project-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <h3 class="project-name">IoT Integration Project</h3>
+                            <p class="project-description">
+                                Enterprise-wide IoT implementation connecting devices, sensors, and systems for real-time data analytics.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section">
+            <div class="section-content">
+                <div class="section-container">
+                    <h2 class="section-title">Contact Us</h2>
+
+                    <div class="card-grid-3" style="margin-top: 3rem;">
+                        <!-- Phone -->
+                        <div class="contact-box rise-animation">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <p class="contact-label">Phone</p>
+                            <p class="contact-value">+60 3-1234 5678</p>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="contact-box rise-animation">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <p class="contact-label">Email</p>
+                            <p class="contact-value">info@utgeneration.com</p>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="contact-box rise-animation">
+                            <div class="contact-icon">
+                                <i class="fas fa-location-dot"></i>
+                            </div>
+                            <p class="contact-label">Address</p>
+                            <p class="contact-value">123 Business Street<br>Kuala Lumpur, Malaysia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===================================
+         SCRIPTS
+         Load component scripts then master.js
+         =================================== -->
+    <script src="assets/script/components/logo-animation.js"></script>
+    <script src="assets/script/components/navigation.js"></script>
+    <script src="assets/script/components/section-manager.js"></script>
+    <script src="assets/script/master.js"></script>
+
+</body>
+</html>
