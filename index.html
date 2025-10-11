@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="assets/style/components/navigation.css">
     <link rel="stylesheet" href="assets/style/components/home.css">
     <link rel="stylesheet" href="assets/style/components/cards.css">
+    <link rel="stylesheet" href="assets/style/components/modal.css">
     <link rel="stylesheet" href="assets/style/components/animations.css">
 
     <!-- Preload Critical Assets -->
@@ -81,7 +82,7 @@
                     <a href="#about" class="navbar-link">About</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#staff" class="navbar-link">Staff</a>
+                    <a href="#staff" class="navbar-link">Team</a>
                 </li>
                 <li class="navbar-item">
                     <a href="#project" class="navbar-link">Project</a>
@@ -180,27 +181,27 @@
 
                     <div class="card-grid-3" style="margin-top: 3rem;">
                         <!-- Chairman -->
-                        <div class="staff-card rise-animation">
+                        <div class="staff-card rise-animation" data-modal="chairman" style="cursor: pointer;">
                             <div class="staff-avatar">
-                                <i class="fas fa-crown"></i>
+                                <img src="assets/images/chairman.png" alt="Chairman" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
                             </div>
                             <h3 class="staff-name">Lieutenant General Dato' Sri Azzuddin bin Ahmad</h3>
                             <p class="staff-position">CHAIRMAN</p>
                         </div>
 
                         <!-- CEO -->
-                        <div class="staff-card rise-animation">
+                        <div class="staff-card rise-animation" data-modal="ceo" style="cursor: pointer;">
                             <div class="staff-avatar">
-                                <i class="fas fa-user-tie"></i>
+                                <img src="assets/images/ceo.png" alt="CEO" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
                             </div>
                             <h3 class="staff-name">Mr. Nivas Raagavan</h3>
                             <p class="staff-position">Director & Chief Executive Officer (CEO)</p>
                         </div>
 
                         <!-- COO -->
-                        <div class="staff-card rise-animation">
+                        <div class="staff-card rise-animation" data-modal="coo" style="cursor: pointer;">
                             <div class="staff-avatar">
-                                <i class="fas fa-user-gear"></i>
+                                <img src="assets/images/coo.png" alt="COO" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
                             </div>
                             <h3 class="staff-name">Mr. Kumareswaran Sinayah</h3>
                             <p class="staff-position">Director & Chief Operating Officer (COO)</p>
@@ -328,12 +329,80 @@
     </main>
 
     <!-- ===================================
+         TEAM MEMBER MODALS
+         Detail popups for each team member
+         =================================== -->
+
+    <!-- Chairman Modal -->
+    <div id="modal-chairman" class="team-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-header">
+                <img src="assets/images/chairman.png" alt="Chairman" class="modal-avatar">
+                <div>
+                    <h2 class="modal-name">Lieutenant General Dato' Sri Azzuddin bin Ahmad</h2>
+                    <p class="modal-position">CHAIRMAN</p>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p style="text-align: justify;">Born 17 May 1946 in Alor Star, Kedah, Dato' Sri Azzuddin trained at the Malaysian Royal Military College and was commissioned 2nd Lieutenant in the Royal Malay Regiment on 17 Feb 1966. He served as Platoon Commander and Regimental Intelligence Officer before postings with the Joint Intelligence Directorate (later DISD) and the Prime Minister's Department.</p>
+
+                <p style="text-align: justify;">Rising steadily through leadership roles—including State Military Intelligence Officer in Sarawak—he attended the Command and General Staff College, USA, and the Royal College of Defence Studies, UK. Promotions followed: Colonel (1991), Brigadier General and Chief Provost Marshal (1995), Major General and Director General Defence Intelligence (1999), and finally Lieutenant General.</p>
+
+                <p style="text-align: justify;">A respected military intelligence officer, he forged strong ties with agencies and corporations in Malaysia and abroad, particularly across ASEAN, Asia, Turkey, Bosnia, and South Africa. A Master's degree holder in Defence Studies, he also excelled in sports, representing the Malaysian Armed Forces and the national football team.</p>
+
+                <p style="text-align: justify;">Post-retirement, he served as General Secretary of the Football Association of Malaysia (2007–2013) and the ASEAN Football Federation (2013–2019). Honours for over three decades of national service include Dato' Setia DiRaja Kedah (DSDK), Johan Setia Mahkota (JSM), Kesatria Mangku Negara (KMN), Panglima Setia Angkatan Tentera (PSAT), Darjah Sultan Ahmad Shah Pahang (DSAP), and Sri Sultan Ahmad Shah Pahang (SSAP).</p>
+
+                <p style="text-align: justify;">We are honoured to have LIEUTENANT GENERAL DATO' SRI AZZUDDIN BIN AHMAD (Retired) to lead this organisation as its Chairman.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CEO Modal -->
+    <div id="modal-ceo" class="team-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-header">
+                <img src="assets/images/ceo.png" alt="CEO" class="modal-avatar">
+                <div>
+                    <h2 class="modal-name">Mr. Nivas Raagavan</h2>
+                    <p class="modal-position">Director & Chief Executive Officer (CEO)</p>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p style="text-align: justify;">[CEO biography details to be added]</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- COO Modal -->
+    <div id="modal-coo" class="team-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-header">
+                <img src="assets/images/coo.png" alt="COO" class="modal-avatar">
+                <div>
+                    <h2 class="modal-name">Mr. Kumareswaran Sinayah</h2>
+                    <p class="modal-position">Director & Chief Operating Officer (COO)</p>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p style="text-align: justify;">[COO biography details to be added]</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================
          SCRIPTS
          Load component scripts then master.js
          =================================== -->
     <script src="assets/script/components/logo-animation.js"></script>
     <script src="assets/script/components/navigation.js"></script>
     <script src="assets/script/components/section-manager.js"></script>
+    <script src="assets/script/components/team-modal.js"></script>
     <script src="assets/script/master.js"></script>
 
 </body>
