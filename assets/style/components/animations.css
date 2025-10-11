@@ -10,7 +10,7 @@
 }
 
 .section.active {
-    display: block;
+    display: flex;
     animation: sectionFadeIn 0.4s ease forwards;
 }
 
