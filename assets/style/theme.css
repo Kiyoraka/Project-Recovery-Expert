@@ -6,17 +6,17 @@
 
 :root {
     /* Primary Colors */
-    --color-primary: #0a0a0a;        /* Deep black */
-    --color-secondary: #1a1a1a;      /* Medium dark black */
+    --color-primary: #6a000c;        /* Deep maroon */
+    --color-secondary: #8a0010;      /* Medium dark maroon */
     --color-accent: #d4af37;         /* Gold accent */
     --color-white: #ffffff;
-    --color-black: #000000;
+    --color-black: #6a000c;
 
     /* Glassmorphism Colors */
-    --glass-bg: rgba(26, 26, 26, 0.7);
+    --glass-bg: rgba(106, 0, 12, 0.7);
     --glass-bg-light: rgba(212, 175, 55, 0.1);
     --glass-border: rgba(255, 255, 255, 0.1);
-    --glass-shadow: rgba(0, 0, 0, 0.3);
+    --glass-shadow: rgba(106, 0, 12, 0.3);
 
     /* Text Colors */
     --text-primary: #ffffff;
@@ -97,9 +97,9 @@
 
 .gradient-overlay {
     background: linear-gradient(180deg,
-        rgba(10, 10, 10, 0.9) 0%,
-        rgba(10, 10, 10, 0.7) 50%,
-        rgba(10, 10, 10, 0.9) 100%
+        rgba(106, 0, 12, 0.9) 0%,
+        rgba(106, 0, 12, 0.7) 50%,
+        rgba(106, 0, 12, 0.9) 100%
     );
 }
 
