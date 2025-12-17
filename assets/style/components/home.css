@@ -53,6 +53,11 @@
     align-items: center;
     text-align: center;
     gap: var(--spacing-md);
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 var(--spacing-sm);
+    box-sizing: border-box;
 }
 
 .hero-badge {
@@ -326,27 +331,28 @@
     }
 
     .hero-company-title {
-        font-size: 1.5rem;
-        white-space: nowrap;
+        font-size: 1.3rem;
+        white-space: normal;
+        word-wrap: break-word;
     }
 
     .company-registration {
-        font-size: 1rem;
+        font-size: 0.9rem;
         display: block;
         margin-left: 0;
         margin-top: 0.5rem;
     }
 
     .hero-subtitle-main {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
 
     .hero-subtitle {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
 
     .hero-logo-img {
-        width: 100px;
+        width: 80px;
     }
 
     .hero-cta .btn-primary,
@@ -362,5 +368,24 @@
 
     .stat-number {
         font-size: 2rem;
+    }
+}
+
+/* Extra small screens (iPhone SE, small Android) */
+@media (max-width: 375px) {
+    .hero-company-title {
+        font-size: 1.1rem;
+    }
+
+    .company-registration {
+        font-size: 0.8rem;
+    }
+
+    .hero-subtitle-main {
+        font-size: 0.85rem;
+    }
+
+    .hero-logo-img {
+        width: 60px;
     }
 }
