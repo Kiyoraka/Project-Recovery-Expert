@@ -40,7 +40,7 @@ Recovery Xpert Sdn Bhd is a newly established yet professionally led Malaysian-b
 - Interactive team member cards with clickable avatars
 - Modal popup biographies
 - **Chairman**: Lieutenant General Dato' Sri Azzuddin bin Ahmad (Retired)
-- **CEO**: Mr. Nivas Raagavan - Business leader and chamber president
+- **CEO**: Mr. Nivas Ragavan - Business leader and chamber president
 - **COO**: Mr. Kumareswaran Sinayah - Operations expert with insurance recovery background
 
 #### 4. Services Section
@@ -254,7 +254,7 @@ Selangor DE, Malaysia
 
 **Management Team**:
 - **Chairman**: Lieutenant General Dato' Sri Azzuddin bin Ahmad (Retired)
-- **CEO**: Mr. Nivas Raagavan
+- **CEO**: Mr. Nivas Ragavan
 - **COO**: Mr. Kumareswaran Sinayah
 
 ---
